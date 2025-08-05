@@ -5,7 +5,7 @@ S. Cheong, M. Kim, and J. W. Shin, "Integrated DNN-based Parameter Estimation fo
 
 ## Performance
  
-- Main experiments
+- Main experiments on CHiME-4 dataset
   <br><img src="images/CHiME-4_Results.png" width="450">
 
 - Experiments on the additional evaluation dataset with unseen noises 
@@ -20,7 +20,7 @@ S. Cheong, M. Kim, and J. W. Shin, "Integrated DNN-based Parameter Estimation fo
       - Room size [W, L, H]: [2.5-5m, 3-9m, 2.2-3.5m] 
       - RT60: 0.3-0.5s 
       - Mic. position: random position in the xy plane but at least 1m away from the walls and at fixed height of 1.5m 
-      - Directional source position: minimun distance of 1m from the center of the microphone array, ensuring at least a 30◦ angular separation from the target source
+      - Directional source position: minimun distance of 1m from the center of the microphone array, ensuring at least a 30˚ angular separation from the target source
   - Overall SNR range: approximately 1-7dB
     - SNRs for diffuse noises: 3, 6, 9 dB
     - SNRs for directional noises: 6, 9, 12 dB
