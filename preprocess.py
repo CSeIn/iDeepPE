@@ -11,14 +11,11 @@ parser = argparse.ArgumentParser(description="Data preprocessing",
                                         " Otherwise, data is split by sample")
 
 # LibriSpeech based loader is not working yet
-parser.add_argument('--in-dir',  type=str,  #required=True,
-                    default="H:/CHiME3/16kHz/isolated", #data1/ms/DB/CHiME3/data/audio/16kHz/isolated",
+parser.add_argument('--in-dir',  type=str,  required=True, default="H:/CHiME3/16kHz/isolated", 
                     help='input Directory path including tr, dt, et')
-parser.add_argument('--in-dir-ext',  type=str,  #required=True,
-                    default="H:/CHiME3/16kHz/isolated_ext", #data1/ms/DB/CHiME3/data/audio/16kHz/isolated_ext",
+parser.add_argument('--in-dir-ext',  type=str,  required=True, default="H:/CHiME3/16kHz/isolated_ext", 
                     help='input_ext Directory path including tr, dt, et')
-parser.add_argument('--out-dir', type=str,  #required=True,
-                    default="data/json/",
+parser.add_argument('--out-dir', type=str,  required=True, default="data/json/",
                     help='Directory path to put output .json files')
 parser.add_argument('--num-sp', type=int, default=1,
                     help='Number of speakers, 1 for speech enhancement')
@@ -30,8 +27,6 @@ parser.add_argument('--dt', type=int, default=1,
                     help='Make dt.json')
 parser.add_argument('--et', type=int, default=1,
                     help='Make et.json')
-
-
 
 
 def audioread(path, sr=None):

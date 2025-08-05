@@ -44,9 +44,9 @@ def param(x):
 
 
 parser = argparse.ArgumentParser('Separate speech')
-parser.add_argument('--modelBF-path', type=str, default="out/BF_model/temp_best.pth.tar",
+parser.add_argument('--modelBF-path', type=str, default="ckpt/BF_model/temp_best.pth.tar",
                     help='Path to model_BF file created by training')
-parser.add_argument('--modelPF-path', type=str, default="out/PF_model/temp_best.pth.tar",
+parser.add_argument('--modelPF-path', type=str, default="ckpt/PF_model/temp_best.pth.tar",
                     help='Path to model_PF file created by training')
 parser.add_argument('--tt-json', type=str, default="data/json/et1spk-6ch.json",
                     help='path to tt.json')
