@@ -5,7 +5,7 @@ S. Cheong, M. Kim, and J. W. Shin, "Integrated DNN-based Parameter Estimation fo
 
 ## Performance
  
-- Main Experiments
+- Main experiments
   <br><img src="images/CHiME-4_Results.png" width="450">
 
 - Experiments on the additional evaluation dataset with unseen noises 
