@@ -40,3 +40,6 @@ See ```how to train & test.txt```.
 [R3] C. Veaux, J. Yamagishi, and S. King, ["The Voice Bank corpus: Design, collection and data analysis of a large regional accent speech database,”](https://ieeexplore.ieee.org/document/6709856) in Proc. O-COCOSDA/CASLRE, 2013, pp. 1–4.
 
 [R4] R. Scheibler, E. Bezzam, and I. Dokmani{\'c}, ["Pyroomacoustics: A python package for audio room simulation and array processing algorithms,”](https://ieeexplore.ieee.org/document/8461310) in Proc. IEEE Int. Conf. Acoust., Speech, Signal Process., 2018, pp. 351–355.
+
+## Acknowledgments
+Special thanks to the second author, M. Kim, for providing the baseline, DeepPE.
