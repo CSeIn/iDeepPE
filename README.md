@@ -3,7 +3,7 @@
 The official repo of:
 S. Cheong, M. Kim, and J. W. Shin, "Integrated DNN-based Parameter Estimation for Multichannel Speech Enhancement", IEEE Signal Processing Letters, vol. 32, pp. 3320-3324, Aug. 2025. (https://ieeexplore.ieee.org/document/11125918)
 
-Paper download: [link](https://sapl.gist.ac.kr/wp-content/uploads/2024/06/Postfilter-for-Dual-Channel-Speech-Enhancement-Using-Coherence-and-Statistical-Model-Based-Noise-Estimation.pdf)
+Paper download: [link](https://sapl.gist.ac.kr/wp-content/uploads/2025/08/Integrated_DNN-Based_Parameter_Estimation_for_Multichannel_Speech_Enhancement.pdf)
 
 ## Performance
  
